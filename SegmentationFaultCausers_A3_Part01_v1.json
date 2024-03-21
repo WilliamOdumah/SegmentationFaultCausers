@@ -1,0 +1,60 @@
+
+{
+    "status": "success",
+    "data": {
+      "wallet_id": "123456",
+      "balances": [
+        {
+          "currency": "BTC",
+          "amount": "0.5"
+        },
+        {
+          "currency": "ETH",
+          "amount": "2.0"
+        }
+      ]
+    },
+    "message": "Wallet balance fetched successfully."
+}
+
+  {
+    "status": "success",
+    "data": {
+      "wallet_id": "123456",
+      "transactions": [
+        {
+          "transaction_id": "tx1001",
+          "date": "2024-03-20",
+          "type": "transfer",
+          "amount": "0.1",
+          "currency": "BTC",
+          "description": "Sent to Wallet 789101"
+        },
+        {
+          "transaction_id": "tx1002",
+          "date": "2024-03-19",
+          "type": "receive",
+          "amount": "0.3",
+          "currency": "ETH",
+          "description": "Received from Wallet 112233"
+        }
+      ]
+    },
+    "message": "Transaction history fetched successfully."
+    }   
+
+  {
+    "status": "success",
+    "data": {
+      "transaction_id": "tx2001",
+      "from_wallet_id": "123456",
+      "to_wallet_id": "789101",
+      "amount": "0.1",
+      "currency": "BTC",
+      "date": "2024-03-20",
+      "description": "Transfer initiated successfully."
+    },
+    "message": "Transfer completed successfully."
+  }
+
+  
